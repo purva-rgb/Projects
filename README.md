@@ -32,13 +32,30 @@ The original dataset contains 13 features across the training, validation, and t
 3. We can use SHAP to traceback to words which helped our prediction
    
 
-## 2.
+## 2. 
 
-**GitHub:** 
-Number of stars : 
-Number of contributors : 
+**GitHub:** https://github.com/projectdiscovery/nuclei
+Number of stars : 29.9k
+Number of contributors : 246
 
-### 
+Nuclei is an open-source, vulnerability scanner that rapidly detects security issues in web applications, networks, cloud environments, and APIs. Instead of relying on a fixed set of checks, it uses customizable YAML templates that define how vulnerabilities are identified. This allows security researchers and developers to quickly scan systems for known misconfigurations, exposed secrets, weak credentials, and other security risks.
+
+### Dataset
+There is no particular dataset mentioned in the repositary but publicly disclosed software vulnerabilities and YAML templates are used to identify.
+
+### Technologies Used
+Go (Golang)
+YAML 
+HTTP/HTTPS protocols
+REST APIs
+
+### Main Components
+-Scanning Engine: Executes vulnerability scans against target systems.
+-Template Engine: Processes YAML templates that define vulnerability detection logic.
+-Target Manager: Handles single or multiple scan targets.
+-Reporting Module: Generates detailed vulnerability reports with severity levels.
+-Cloud Dashboard Integration: Uploads and visualizes scan results on the ProjectDiscovery platform.
+
 
 
 

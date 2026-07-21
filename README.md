@@ -3,6 +3,8 @@
 ## 1. Fake News Detection
 
 **GitHub:** https://github.com/nishitpatel01/Fake_News_Detection
+Number of stars : 638
+Number of contributors : 5
 
 This project uses Natural Language Processing (NLP) and machine learning techniques in Python to classify news articles as fake or genuine. It leverages the scikit-learn library for text preprocessing, feature extraction, model training, and performance evaluation.
 
@@ -29,4 +31,14 @@ The original dataset contains 13 features across the training, validation, and t
 2. We can provide prediction probability e.g 90% fake 10% real
 3. We can use SHAP to traceback to words which helped our prediction
    
+
+## 2.
+
+**GitHub:** 
+Number of stars : 
+Number of contributors : 
+
+### 
+
+
 

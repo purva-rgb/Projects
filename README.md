@@ -3,8 +3,11 @@
 ## 1. Fake News Detection
 
 **GitHub:** https://github.com/nishitpatel01/Fake_News_Detection
-Number of stars : 638
-Number of contributors : 5
+
+**Number of Stars:**  **638**  
+**Number of Contributors:**  **5**
+
+## **Project Description**
 
 This project uses Natural Language Processing (NLP) and machine learning techniques in Python to classify news articles as fake or genuine. It leverages the scikit-learn library for text preprocessing, feature extraction, model training, and performance evaluation.
 
@@ -32,29 +35,41 @@ The original dataset contains 13 features across the training, validation, and t
 3. We can use SHAP to traceback to words which helped our prediction
    
 
-## 2. 
+
+## 2. Vulnerability Scanner using Nuclei
 
 **GitHub:** https://github.com/projectdiscovery/nuclei
-Number of stars : 29.9k
-Number of contributors : 246
 
-Nuclei is an open-source, vulnerability scanner that rapidly detects security issues in web applications, networks, cloud environments, and APIs. Instead of relying on a fixed set of checks, it uses customizable YAML templates that define how vulnerabilities are identified. This allows security researchers and developers to quickly scan systems for known misconfigurations, exposed secrets, weak credentials, and other security risks.
+**Number of Stars:** **29.9k**  
+**Number of Contributors:**  **246**
 
-### Dataset
-There is no particular dataset mentioned in the repositary but publicly disclosed software vulnerabilities and YAML templates are used to identify.
+## **Project Description**
 
-### Technologies Used
-Go (Golang)
-YAML 
-HTTP/HTTPS protocols
-REST APIs
+Nuclei is an open-source vulnerability scanner that rapidly detects security issues in **web applications, networks, cloud environments, and APIs**. Instead of relying on a fixed set of checks, it uses customizable **YAML templates** that define how vulnerabilities are identified. This allows security researchers and developers to efficiently scan systems for **known vulnerabilities, misconfigurations, exposed secrets, weak credentials, and other security risks**.
 
-### Main Components
--Scanning Engine: Executes vulnerability scans against target systems.
--Template Engine: Processes YAML templates that define vulnerability detection logic.
--Target Manager: Handles single or multiple scan targets.
--Reporting Module: Generates detailed vulnerability reports with severity levels.
--Cloud Dashboard Integration: Uploads and visualizes scan results on the ProjectDiscovery platform.
+## Dataset Used
+
+There is no specific dataset used in this project. Instead, Nuclei relies on:
+
+- **Publicly disclosed software vulnerabilities (CVEs)**
+- **Community-maintained YAML vulnerability templates**
+- **User-provided targets** such as websites, APIs, IP addresses, domains, and networks
+
+## **Technologies Used**
+
+- **Go (Golang)**
+- **YAML**
+- **HTTP/HTTPS Protocols**
+- **REST APIs**
+
+## **Main Components**
+
+- **Scanning Engine:** Executes vulnerability scans against target systems.
+- **Template Engine:** Processes YAML templates that define vulnerability detection logic.
+- **Target Manager:** Manages and scans single or multiple targets.
+- **Reporting Module:** Generates detailed vulnerability reports with severity levels and scan results.
+- **Cloud Dashboard Integration:** Uploads and visualizes scan results on the ProjectDiscovery platform.
+
 
 
 
